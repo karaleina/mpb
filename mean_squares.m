@@ -11,6 +11,6 @@ function [ x ] = mean_squares( matrix1)
             end
         end
     end
-    x = suma^(1/2)/liczbaNaN;
+    x = (suma/liczbaNaN)^2;
 end
 
